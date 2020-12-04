@@ -2,7 +2,7 @@ name: Deploy cloud_function
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'cloud_function/**'
 
